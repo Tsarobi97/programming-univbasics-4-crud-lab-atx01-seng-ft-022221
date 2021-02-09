@@ -19,19 +19,19 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-  ok.shift
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  ok[3]
+  array[3]
 end
 
 def retrieve_first_element_from_array(array)
-  ok[0]
+  array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  ok[-1]
+  array[-1]
 end
 
 def update_element_from_index(array, index_number, element)
