@@ -1,17 +1,17 @@
 def create_an_empty_array
-  ok = Array.new
+  array = Array.new
 end
 
 def create_an_array
-  ok = ["ok", "ko", "kk", "oo"]
+  array = ["ok", "ko", "kk", "oo"]
 end
 
 def add_element_to_end_of_array(array, element)
-  ok.push("hi")
+  array.push("hi")
 end
 
 def add_element_to_start_of_array(array, element)
-  ok.unshift("hello")
+  array.unshift("hello")
 end
 
 def remove_element_from_end_of_array(array)
