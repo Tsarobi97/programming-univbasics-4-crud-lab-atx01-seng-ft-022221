@@ -23,7 +23,7 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-  array[3]
+  array("am")
 end
 
 def retrieve_first_element_from_array(array)
@@ -35,5 +35,5 @@ def retrieve_last_element_from_array(array)
 end
 
 def update_element_from_index(array, index_number, element)
-ok[-1] = "SMD"
+array[-1] = "SMD"
 end
